@@ -7,7 +7,7 @@ import { PostedMessage } from "./types/posted_message.ts";
 
 export default Manifest({
   name: "daily-notification",
-  description: "Daily notiication in channels",
+  description: "Daily notification in channels",
   icon: "assets/default_new_app_icon.png",
   functions: [Configure, Notify],
   workflows: [Configurator, Notification],
